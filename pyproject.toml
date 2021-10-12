@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "frontmatter-analysis"
+version = "0.1.0"
+description = "parses frontmatter data from files and produces a quick analysis"
+authors = ["Adrien Di Pasquale <adrien@dipasquale.fr>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.3"
+python-frontmatter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
